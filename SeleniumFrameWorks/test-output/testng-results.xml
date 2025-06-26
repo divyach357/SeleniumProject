@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-07T16:20:24 PDT" name="Default suite" finished-at="2025-04-07T16:21:02 PDT" duration-ms="37452">
+    <groups>
+    </groups>
+    <test started-at="2025-04-07T16:20:24 PDT" name="Default test" finished-at="2025-04-07T16:21:02 PDT" duration-ms="37452">
+      <class name="DivyaTestPractice.tests.OrderE2ETest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:DivyaTestPractice.tests.OrderE2ETest@48f2bd5b]" started-at="2025-04-07T16:20:24 PDT" name="launchApp" finished-at="2025-04-07T16:20:38 PDT" duration-ms="13312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder()[pri:0, instance:DivyaTestPractice.tests.OrderE2ETest@48f2bd5b]" started-at="2025-04-07T16:20:38 PDT" name="submitOrder" finished-at="2025-04-07T16:20:51 PDT" duration-ms="13136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DivyaTestPractice.tests.OrderE2ETest@48f2bd5b]" started-at="2025-04-07T16:20:51 PDT" name="tearDown" finished-at="2025-04-07T16:20:51 PDT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:DivyaTestPractice.tests.OrderE2ETest@48f2bd5b]" started-at="2025-04-07T16:20:51 PDT" name="launchApp" finished-at="2025-04-07T16:21:00 PDT" duration-ms="9420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkOrderHistory()[pri:0, instance:DivyaTestPractice.tests.OrderE2ETest@48f2bd5b]" started-at="2025-04-07T16:21:00 PDT" name="checkOrderHistory" finished-at="2025-04-07T16:21:02 PDT" depends-on-methods="DivyaTestPractice.tests.OrderE2ETest.submitOrder" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DivyaTestPractice.tests.OrderE2ETest@48f2bd5b]" started-at="2025-04-07T16:21:02 PDT" name="tearDown" finished-at="2025-04-07T16:21:02 PDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DivyaTestPractice.tests.OrderE2ETest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
